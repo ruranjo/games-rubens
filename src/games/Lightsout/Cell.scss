@@ -1,0 +1,24 @@
+:root {
+    --size : 5px;
+    --blue : #12e7e7;
+    --orange : #fea501;
+}
+
+.on,.off{
+    width: var(--size);
+    border-radius: 50%;
+    height: var(--size);
+    border: none;
+    margin: var(--size);
+}
+
+.on {
+    background-color: var(--blue);
+    box-shadow: 
+        0 0 var(--size) var(--blue),
+        0 0 calc(2*var(--size)) var(--blue)
+}
+
+.off {
+    background-color: rgb(55, 55, 55);
+}

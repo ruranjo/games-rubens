@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.score-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+
+    
+    font-size: x-large;
+    color: #545454;
+    max-width: 350px;
+    width: 100%;
+    margin: 8% 8% 3% 8%;
+
+}
+
+.btn-container{
+    
+    display: flex;
+    button{
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: x-large;
+        color: white;
+        width: 70px;
+        height: 40px;
+        border: none;
+        background-color: #545454;
+        border-radius: 10px;
+        margin: .2rem;
+    }
+
+    .restart{
+        color:  pink;
+        width: 80px;
+    }
+    
+    .menu{
+        color:  greenyellow;
+    }
+    
+}
+
+.score{
+    display: flex;
+    .icon-player{
+        margin-left: 5px;
+        background-color: #545454;
+        width: 30px;
+        height: 30px;
+        color:white;
+        text-align: center;
+        border-radius: 50%;
+    }
+}
+
+/*
+.score-container {
+  
+  button {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    background-color: #545454;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+  }
+
+  // small screens
+  @media screen and (max-width: 768px) {
+    font-size: large;
+    width: 280px;
+    margin: 13% 13% 5% 13%;
+
+    button {
+      font-size: x-small;
+      width: 60px;
+      height: 30px;
+    }
+  }
+}
+*/

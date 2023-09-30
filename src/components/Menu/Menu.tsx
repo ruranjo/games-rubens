@@ -1,5 +1,5 @@
 import './Menu.scss'
-import { Box, Button, List, ListItem, ListItemText, Typography } from '@mui/material'
+import { Box, Button, List, ListItem, Typography } from '@mui/material'
 
 interface Props {
     menuOptions: string[];

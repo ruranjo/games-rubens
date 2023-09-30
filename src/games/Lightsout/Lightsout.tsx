@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Header } from '../../components/common/Header'
 import Board from './Board'
 
@@ -8,8 +8,8 @@ const Lightsout  = () => {
 
   const createGrid = () =>
      
-    new Array(size).fill(undefined).map((r) => 
-    new Array(size).fill(undefined).map((c) => Math.random() < 0.4));
+    new Array(size).fill(undefined).map((_) => 
+    new Array(size).fill(undefined).map((_) => Math.random() < 0.4));
   
 
     const [ board, setBoard ] = useState(createGrid())

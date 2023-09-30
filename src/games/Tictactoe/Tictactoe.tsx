@@ -11,7 +11,7 @@ const O = 'O';
 const Tictactoe = () => {
     const [currentPlayer, setCurrentPlayer] = useState<string>(X);
     const squareId = [0,1,2,3,4,5,6,7,8];
-    const [squares, setSquares] = useState<string[]>(squareId.map((i) => ''));
+    const [squares, setSquares] = useState<string[]>(squareId.map((_) => ''));
   
     const switchPlayerTurn = () =>{
         if(currentPlayer === X){
@@ -22,7 +22,7 @@ const Tictactoe = () => {
     }
 
     const resetBoard = () =>{
-        const temp = squareId.map((i) => '')
+        const temp = squareId.map((_) => '')
         setSquares(temp)
         setCurrentPlayer(X)
     }
